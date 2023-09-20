@@ -16,27 +16,44 @@ Este programa es una aplicación diseñada para realizar web scraping en sitios 
 
 - **Finalización del Proceso:** Una vez que hayas buscado todos los productos deseados, simplemente presiona "Enter" sin escribir nada para finalizar el proceso de web scraping.
 
+- **Guardado del Archivo CSV:** El archivo CSV que contiene los resultados se guarda en la ubicación donde se compila el proyecto.
+
 ## Ejemplo de Uso
 
-1. Ejecuta el programa y selecciona el motor del navegador que prefieras.
+1. **Descarga y Compilación del Proyecto:**
 
-2. Ingresa la URL del sitio web que deseas analizar. Por ejemplo, "https://www.amazon.com.mx/".
+    - Clona el repositorio desde GitHub o descárgalo como un archivo ZIP.
+    - Abre una terminal y navega hasta la carpeta del proyecto.
+    - Ejecuta el siguiente comando para compilar el proyecto:
 
-3. Escribe el nombre de los productos que deseas buscar, uno tras otro. Por ejemplo, "playeras", "zapatos", "computadoras".
+      ```bash
+      dotnet build
+      ```
 
-4. Presiona "Enter" después de escribir cada producto.
+2. **Ejecución del Programa:**
 
-5. Si se muestra un CAPTCHA, resuélvelo manualmente en un plazo de 10 segundos.
+    - Ejecuta el programa con el siguiente comando:
 
-6. Continúa buscando productos siguiendo los pasos 3-5.
+      ```bash
+      dotnet run
+      ```
 
-7. Para finalizar el proceso, simplemente presiona "Enter" sin escribir nada.
+3. **Configuración de Parámetros:**
+
+    - Selecciona el motor del navegador, ingresa la URL del sitio web (por ejemplo, "https://www.amazon.com.mx/"), y escribe los nombres de los productos que deseas buscar.
+
+4. **Uso del Programa:**
+
+    - Sigue las instrucciones en la pantalla para buscar productos y resolver CAPTCHAs si es necesario.
+
 
 ## Notas Importantes
 
 - Este programa actualmente está configurado para funcionar con Amazon, por lo que la URL ingresada debe ser de este sitio web.
 
 - Asegúrate de tener instalado el controlador del navegador que seleccionaste antes de ejecutar el programa.
+
+- El archivo CSV que contiene los resultados se guarda en la ubicación donde se compila el proyecto.
 
 - Si tienes algún problema o pregunta, no dudes en ponerte en contacto con el desarrollador.
 
