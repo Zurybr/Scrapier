@@ -21,7 +21,7 @@ Este programa es una aplicación diseñada para realizar web scraping en sitios 
 ## Ejemplo de Uso
 
 1. **Descarga y Compilación del Proyecto:**
-
+    - Puedes descargar la última versión desde [aquí](https://github.com/Zurybr/Scrapier/releases/tag/v0.0.1).
     - Clona el repositorio desde GitHub o descárgalo como un archivo ZIP.
     - Abre una terminal y navega hasta la carpeta del proyecto.
     - Ejecuta el siguiente comando para compilar el proyecto:
